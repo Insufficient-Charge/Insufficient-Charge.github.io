@@ -1,1 +1,340 @@
-<!DOCTYPE html><html data-bs-theme="light" lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"><title>Projects - Brand</title><link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700"><link rel="stylesheet" href="assets/fonts/ionicons.min.css"><link rel="stylesheet" href="assets/css/styles.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css"></head><body><nav class="navbar navbar-expand-lg fixed-top bg-white navbar-dark portfolio-navbar gradient" style="background:linear-gradient(-53deg, var(--bs-teal), var(--bs-cyan)), var(--bs-cyan);"><div class="container"><a class="navbar-brand logo" href="index.html">John Paul Bunn</a><button data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarNav"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="index.html">Home</a></li><li class="nav-item"><a class="nav-link" href="aboutme.html">About Me</a></li><li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li><li class="nav-item"><a class="nav-link active" href="projects-grid-cards.html">Projects</a></li><li class="nav-item"><a class="nav-link" href="contact-me.html">Contact Me</a></li><li class="nav-item"><a class="nav-link" href="project-page.html">About This Site</a></li></ul></div></div></nav><main class="page projects-page"><section class="portfolio-block projects-cards"><div class="container"><div class="heading"><h2>Recent Projects</h2></div></div><div class="container"><div class="row"><div class="col-md-4"><h1 style="text-align: center;">BevyPong - Game Development using Bevy and Rust</h1></div><div class="col-md-4"><h1 style="text-align: center;">Networking Node Interface on STM32 using Rust Embassy</h1></div><div class="col"><h1 style="text-align: center;">Random Forest Model for Matching Board Game Weights to Player Preferences in NumPy/Pandas</h1></div></div></div><div class="container"><div class="row"><div class="col-md-4"><p class="text-center">Interactive 2D video-game using Bevy, a Rust Game Engine, that implements aspects of the Entity-Component-System.<br><br>Implemented player and ball movement systems with collision detection and physics.<br><br>Developed systems for player and ball movements, handling collisions with walls, the player paddle, and the ceiling.<br>Used timers to manage game ticks and ensure smooth gameplay.<br><br>Integrated with Bevy's input system to handle keyboard input for player movement.<br><br>Organized code into modules, systems, and resources for maintainability and readability.<br><br>Leveraged Bevy's built-in components and resources for rendering and managing game entities.</p></div><div class="col-md-4"><p class="text-center">Implemented a network-communication node intended to communicate with a hub-device with other classmates’ network nodes.<br><br>Utilized the Embassy Executor framework to manage asynchronous tasks for receiving, monitoring, and transmitting messages, ensuring non-blocking operation and efficient resource utilization during interrupts.<br><br>Leveraged mutexes for thread-safe access to shared uses, including access to a custom message-building data structure.<br><br>Integrated manchester encoding, header and trailer encode/decoding (including CRC calculation and verification).<br><br>Implemented custom transmitter and receiver with random-backoff along communication lines as well as a state-observer to detect/avoid data collisions.<br><br>Created asynchronous tests using the embedded-test rust-crate, as well as designing hardware simulations using Wokwi.</p></div><div class="col-md-4"><p class="text-center">Analyzed the relationship between board game weight and many data points from the Board Game Geek dataset, including a game’s predetermined complexity, rating, number of players, and number of owners, and theme of the game.<br><br>Related game weight to cognitive load, as well as relating the age of a board game to their unique complexity.<br><br>Performed feature analysis on the attributes to the independent variable to determine their importance in determining game weight.<br><br>Determined statistical significance through Linear Regression and Kruskal-Wallis tests.</p></div></div></div></section><section class="portfolio-block projects-cards"><div class="container"><div class="row"><div class="col-md-4"><h1 style="text-align: center;">Interconnected Tennis Scoreboards&nbsp;</h1></div><div class="col-md-4"><h1 style="text-align: center;">Classifying Objects in Underwater Sonar Images</h1></div><div class="col"><h1 style="text-align: center;">Custom WiFi Clock - Custom PCB Fabrication and 3D Modeling</h1></div></div></div><div class="container"><div class="row"><div class="col-md-4"><p class="text-center">Integrated the Arduino Painless Mesh library to interconnect 7 ESP32s for sharing the state of multiple tennis-courts across a mesh network.<br><br>Used SPIFF to maintain data-files on flash memory, maintaining a history, scoreboard status, and more even when the device is shut down.<br><br>Implemented a local WiFi network hosted on multiple ESP32s to view or change the state of the tennis scoreboards on a web page supporting asynchronous updates with HTTP POST and GET requests.</p></div><div class="col-md-4"><p class="text-center">Developed a Convolutional Neural Network (CNN) model based on YOLOv4 architecture for underwater object detection and classification using MATLAB Deep Learning Toolbox and Computer Vision Toolbox, achieving high accuracy and precision.<br><br>Utilized data preprocessing techniques including data cleansing on a dataset of 7600 black and white sonar images using geometric transformations, logarithmic compression, and denoising encoding.<br><br>Collaborated with a team to develop a unique approach for processing multibeam sonar images using deep learning techniques, resulting in a model capable of detecting and classifying objects with high accuracy in underwater environments.</p></div><div class="col-md-4"><p class="text-center">Designed and developed a printed circuit board (PCB) schematic using KiCad, ensuring precise layout and functionality for electronic systems, including routing, tracing, and handling attenuation.<br><br>Manually placed and soldered individual-components onto the fabricated PCB.<br><br>Configured the clock with custom embedded code in Arduino C, emulating the ESP32 communications protocol, including implementations for wifi-connectivity, polling weather data, and displaying custom messages<br><br>Created a 3D model in Onshape for the clock’s frame and custom buttons.</p></div></div></div><section class="portfolio-block projects-cards"><div class="container"><div class="row"><div class="col-md-4"><a href="https://covid19.spaceappschallenge.org/challenges/covid-challenges/integrated-assessment/teams/hexhax/project"><img class="card-img-top scale-on-hover" src="assets/img/tech/map.jpg" alt="Card Image" height="200px"></a></div><div class="col-md-4"><a href="https://devpost.com/software/bayhax"><img class="card-img-top scale-on-hover" src="assets/img/tech/bear.jpg" alt="Card Image" height="200px"></a></div><div class="col-md-4"><img class="card-img-top scale-on-hover" src="assets/img/tech/cat.jpg" alt="Card Image" height="200px"></div></div></div><div class="container"><div class="row"><div class="col-md-4"><a href="https://covid19.spaceappschallenge.org/challenges/covid-challenges/integrated-assessment/teams/hexhax/project" style="color:var(--bs-body-color);"><h3 class="text-center" style="text-decoration:underline;">Artificial Intelligence Derived Predictive Analysis of COVID-19 over Time (AID PACT)</h3></a></div><div class="col-md-4"><a href="https://devpost.com/software/bayhax"><h3 class="text-center" style="color:var(--bs-body-color);text-decoration:underline;">BayHax</h3></a></div><div class="col-md-4"><h3 class="text-center">Borb's Big Adventure</h3></div></div></div><div class="container"><div class="row"><div class="col-md-4"><p class="text-center"><strong>Summary</strong><br>Our interactive map displays current and AI-predicted future COVID-19 cases and unemployment rates over time. Using a Bayesian Ridge Regression, we trained our machine learning model by integrating Earth Observation derived features and socioeconomic data. By providing these location-based predictions, we hope to help the public make better-informed decisions regarding safety.<br>My involvement was in the depiction and use of the data with our interactive tool, integrating with Google Maps. Learn more at the project site!<br></p></div><div class="col-md-4"><p class="text-center"><strong>Summary</strong><br>Winning 2nd place during the 2020 NotUniversity Hackathon, BayHax is an emotional health tracking teddy bear, fitted with a Raspberry Pi, speakers, and buttons. Working as a team of 5 over the course of a weekend during this competitive event, we successfully developed a working prototype, as well as an application visualizing the data collected by BayHax. My involvement was to develop the infrastructure between BayHax and the application and graphing the data using the Chart.js library. BayHax’s data, which pertained to emotional states such as anger, sadness, and joy, were charted and cross-referenced with time and interactions with the buttons. While developed during a hackathon, BayHax’s primary focus was to help parents to better understand the emotional state of their children, allowing them to track times and dates when their child might be experiencing a particular emotional state.<br></p></div><div class="col-md-4"><p class="text-center"><strong>Summary</strong><br>“Borb’s Big Adventure” is a reflexive response and physics-based game played as a side-scrolling adventure. Developed during the game development research project under Dr. T. Krause at the University of Wisconsin Stevens Point, Borb’s Big Adventure was meant to help children learn more about momentum and kinematic forces by playing as Borb, the ball-orb-round-marble-cat. My task was to develop the grappling movement mechanism, which was used as a way for the player to manipulate a rope with tension in order to “grapple” to their goal. After 6 months of development, Borb’s Big Adventure was demoed at the 2020 WiSys Quick Pitch UW- Stevens Point competition where it&nbsp; earned a research grant to continue the project. One of the biggest challenges of this project was the many various aspects the project took on: for example, there was a significant amount of visual design, simulated kinematics versus actual kinematics, and more. Borb’s Big Adventure was developed in the Unity Game Engine using C#, and developed collectively by Dr. Krause’s research team.<br></p></div></div></div><div class="container"><div class="row"><div class="col-md-4"><p class="text-center"><strong>Analysis</strong><br>Our predictive model integrates Earth Observation-derived features like population density and global human modification with socio-economic data including city accessibility, Gini coefficient (the measurement of wealth inequality), and GDP (gross domestic product) to predict future cases of COVID-19 through machine learning.<br><br>By mapping current and future cases on an international scale, this application allows global health agencies to distribute personal protective equipment (PPE), ventilators, gurneys, and other necessary medical resources to states and countries that experience a greater effect of COVID-19.&nbsp;Our AI predictions of future cases allow government leaders to make better-informed decisions about lifting or extending lockdown and social distancing regulations. Informing the public about potential spread will help ensure that they are protecting themselves appropriately. Concurrently, predictions of high numbers of future cases may encourage lawmakers to consider implementing or increasing stimulus checks and other forms of relief.<br><br></p></div><div class="col-md-4"><p class="text-center"><strong>Analysis</strong><br>By recognizing trends collected by an AI facial recognition algorithm, particular determinations could be reliably made about one’s emotional state at a certain date and time. What I treasure most about this project was picking up a new technology and employing it quickly to a relevant and impactful application. This project also drew me closer to the applications of artificial intelligence in hardware projects; the possibility to apply collected data to effectively predict emotional responses was particularly interesting to me. Working on BayHax was also one of my first and most valuable experiences of working on a technical challenge with a team right out of high school. Our team --HexHax-- used our shared experience from Google CSSI in order to craft a solution that rocked the leaderboards. If I could, I would take more responsibility in the project itself, and take on more of a leadership role.<br><br></p></div><div class="col-md-4"><p class="text-center"><strong>Analysis</strong><br>Incorporating physics into a virtual environment (as a 2D video game) was a difficult feat; one that involved a significant amount of debugging and refining. As a programmer on the team, I was charged with the movement mechanics of the game, including jumping, walking or rolling, and some work on grappling. This project became one of the best experiences I ever had in resolving algorithmic solutions to complicated situations; such as where a tether should render, and which direction the centripetal acceleration of a bouncing circular kitten should be, which inspired me to pursue increasingly complicated and more impactful projects to become involved in.<br><br></p></div></div></div></section></section></main><footer class="page-footer"><div class="container"><div class="links"><a href="index.html">About me</a><a href="contact-me.html">Contact me</a><a href="projects-grid-cards.html">My projects</a></div><div class="social-icons"><a href="https://www.facebook.com/profile.php?id=100009795074402"><i class="icon ion-social-facebook"></i></a><a href="https://www.instagram.com/jp.bunn/"><i class="icon ion-social-instagram-outline"></i></a><a href="https://www.linkedin.com/in/jpbunn/"><i class="icon ion-social-linkedin"></i></a></div><div><p>© 2024 John Paul Bunn<br></p></div></div></footer><script src="assets/bootstrap/js/bootstrap.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script><script src="assets/js/script.min.js"></script></body></html>
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Projects - John Paul Bunn</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <style>
+        .project-card {
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(0,0,0,0.06) !important;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 14px 28px rgba(0,0,0,0.1) !important;
+        }
+        .project-card .card-img-top {
+            transition: transform 0.35s ease;
+        }
+        .project-card:hover .card-img-top {
+            transform: scale(1.03);
+        }
+        .project-badge {
+            font-weight: 600;
+            font-size: 0.72rem;
+            padding: 0.35em 0.65em;
+            letter-spacing: 0.02em;
+            border-radius: 6px;
+        }
+        .project-bullet-list {
+            padding-left: 1.15rem;
+            margin-bottom: 0;
+        }
+        .project-bullet-list li {
+            margin-bottom: 0.45rem;
+        }
+        .project-bullet-list li:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-white navbar-dark portfolio-navbar gradient" style="background:linear-gradient(-53deg, var(--bs-teal), var(--bs-cyan)), var(--bs-cyan);">
+        <div class="container">
+            <a class="navbar-brand logo" href="index.html">John Paul Bunn</a>
+            <button data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler">
+                <span class="visually-hidden">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutme.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects-grid-cards.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact-me.html">Contact Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project-page.html">About This Site</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page projects-page">
+        <!-- Section 1: Projects & Laboratories (from Resume) -->
+        <section class="portfolio-block projects-cards">
+            <div class="container">
+                <div class="heading text-center mb-5">
+                    <h2>Projects &amp; Laboratories</h2>
+                    <p class="text-muted fs-5">Core engineering work spanning asynchronous embedded systems, Rust game engines, machine learning, custom PCB fabrication, and computer vision neural networks.</p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Project 1: Networking Node Interface on STM32 using Rust Embassy -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card h-100 shadow-sm project-card">
+                            <div class="card-body d-flex flex-column text-start p-4">
+                                <div class="mb-2">
+                                    <span class="badge bg-primary project-badge">Rust Embassy</span>
+                                    <span class="badge bg-dark project-badge">STM32 Embedded</span>
+                                    <span class="badge bg-secondary project-badge">Async Networking</span>
+                                    <span class="badge bg-info text-dark project-badge">Wokwi</span>
+                                </div>
+                                <h4 class="card-title fw-bold mb-1">Networking Node Interface on STM32</h4>
+                                <h6 class="card-subtitle text-muted mb-3">Async Embassy Framework &bull; Ubuntu Linux &bull; Wokwi Simulation</h6>
+                                <div class="card-text text-muted flex-grow-1" style="font-size:0.92rem;line-height:1.6;">
+                                    <p class="mb-2 text-dark">Implemented a network-communication node intended to communicate with a hub-device with other classmates&rsquo; network nodes in an Ubuntu-Linux environment.</p>
+                                    <ul class="project-bullet-list">
+                                        <li>Utilized the Embassy Executor framework to manage asynchronous tasks for receiving, monitoring, and transmitting messages, ensuring non-blocking operation and efficient resource utilization during interrupts.</li>
+                                        <li>Leveraged mutexes for thread-safe access to shared uses, including access to a custom message-building data structure.</li>
+                                        <li>Integrated Manchester encoding, header and trailer encode/decoding (including CRC calculation and verification).</li>
+                                        <li>Implemented custom transmitter and receiver with random-backoff along communication lines as well as a state-observer to detect/avoid data collisions.</li>
+                                        <li>Created asynchronous tests using the <code>embedded-test</code> Rust crate, as well as designing hardware simulations using Wokwi.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Personal Game Project in Bevy and Rust -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card h-100 shadow-sm project-card">
+                            <div class="card-body d-flex flex-column text-start p-4">
+                                <div class="mb-2">
+                                    <span class="badge bg-dark project-badge">Rust</span>
+                                    <span class="badge bg-info text-dark project-badge">Bevy Game Engine</span>
+                                    <span class="badge bg-secondary project-badge">ECS Architecture</span>
+                                    <span class="badge bg-primary project-badge">Ubuntu Linux</span>
+                                </div>
+                                <h4 class="card-title fw-bold mb-1">Personal Game Project in Bevy and Rust</h4>
+                                <h6 class="card-subtitle text-muted mb-3">2D Game Engine &bull; Entity-Component-System &bull; Linux</h6>
+                                <div class="card-text text-muted flex-grow-1" style="font-size:0.92rem;line-height:1.6;">
+                                    <p class="mb-2 text-dark">Interactive 2D video-game using Bevy, a Rust Game Engine, that implements aspects of the Entity-Component-System all in an Ubuntu-Linux environment.</p>
+                                    <ul class="project-bullet-list">
+                                        <li>Implemented player and ball movement systems with collision detection and physics.</li>
+                                        <li>Developed systems for player and ball movements, handling collisions, controls, and interactions.</li>
+                                        <li>Used timers to manage game ticks and ensure smooth gameplay.</li>
+                                        <li>Organized code into modules, systems, and resources for maintainability and readability.</li>
+                                        <li>Leveraged Bevy&rsquo;s built-in components and resources for rendering and managing game entities.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Random Forest Model for Matching Board Game Weights to Player Preferences -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <div class="card-body d-flex flex-column text-start p-4">
+                                <div class="mb-2">
+                                    <span class="badge bg-success project-badge">Machine Learning</span>
+                                    <span class="badge bg-secondary project-badge">Python</span>
+                                    <span class="badge bg-warning text-dark project-badge">NumPy &bull; Pandas</span>
+                                </div>
+                                <h4 class="card-title fw-bold mb-1">Random Forest: Board Game Weights</h4>
+                                <h6 class="card-subtitle text-muted mb-3">Matching Board Game Weights to Player Preferences</h6>
+                                <div class="card-text text-muted flex-grow-1" style="font-size:0.92rem;line-height:1.6;">
+                                    <p class="mb-2 text-dark">Analyzed the relationship between board game weight and data points from the Board Game Geek dataset, including predetermined complexity, rating, player count, ownership, and theme.</p>
+                                    <ul class="project-bullet-list">
+                                        <li>Related game weight to cognitive load, as well as relating the age of a board game to its unique complexity.</li>
+                                        <li>Performed feature analysis on attributes to the independent variable to determine their importance in determining game weight.</li>
+                                        <li>Determined statistical significance through Linear Regression and Kruskal-Wallis tests.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: WiFi Clock - Custom Embedded PCB Fabrication with WiFi connectivity -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <img class="card-img-top" src="assets/img/tech/embedded_systems.jpg" alt="WiFi Clock Custom PCB" style="height:190px;object-fit:cover;">
+                            <div class="card-body d-flex flex-column text-start p-4">
+                                <div class="mb-2">
+                                    <span class="badge bg-dark project-badge">KiCad EDA</span>
+                                    <span class="badge bg-secondary project-badge">ESP32</span>
+                                    <span class="badge bg-primary project-badge">PCB Fabrication</span>
+                                    <span class="badge bg-info text-dark project-badge">Onshape CAD</span>
+                                </div>
+                                <h4 class="card-title fw-bold mb-1">WiFi Clock - Custom Embedded PCB</h4>
+                                <h6 class="card-subtitle text-muted mb-3">Custom Hardware Fabrication &bull; Arduino C &bull; Onshape</h6>
+                                <div class="card-text text-muted flex-grow-1" style="font-size:0.92rem;line-height:1.6;">
+                                    <p class="mb-2 text-dark">Designed and developed a printed circuit board (PCB) schematic using KiCad, ensuring precise layout and functionality for electronic systems, including routing, tracing, and handling attenuation.</p>
+                                    <ul class="project-bullet-list">
+                                        <li>Manually placed and soldered individual components onto the fabricated PCB.</li>
+                                        <li>Configured the clock with custom embedded code in Arduino C, emulating the ESP32 communications protocol, including WiFi connectivity, polling weather data, and displaying custom messages.</li>
+                                        <li>Created a 3D model in Onshape for the clock&rsquo;s frame and custom buttons.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: Neural Network for Classifying Objects of Underwater Sonar Images using MATLAB’s Deep Learning Library -->
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card h-100 shadow-sm project-card">
+                            <div class="card-body d-flex flex-column text-start p-4">
+                                <div class="mb-2">
+                                    <span class="badge bg-danger project-badge">Deep Learning</span>
+                                    <span class="badge bg-secondary project-badge">MATLAB</span>
+                                    <span class="badge bg-dark project-badge">YOLOv4 CNN</span>
+                                    <span class="badge bg-info text-dark project-badge">Computer Vision</span>
+                                </div>
+                                <h4 class="card-title fw-bold mb-1">Underwater Sonar Classification CNN</h4>
+                                <h6 class="card-subtitle text-muted mb-3">MATLAB Deep Learning Toolbox &bull; 7,600 Image Dataset</h6>
+                                <div class="card-text text-muted flex-grow-1" style="font-size:0.92rem;line-height:1.6;">
+                                    <p class="mb-2 text-dark">Developed a Convolutional Neural Network (CNN) model based on YOLOv4 architecture for underwater object detection and classification using MATLAB Deep Learning Toolbox and Computer Vision Toolbox, achieving high accuracy and precision.</p>
+                                    <ul class="project-bullet-list">
+                                        <li>Utilized data preprocessing techniques including data cleansing on a dataset of 7,600 black and white sonar images using geometric transformations, logarithmic compression, and denoising encoding.</li>
+                                        <li>Collaborated with a team to develop a unique approach for processing multibeam sonar images using deep learning techniques, resulting in a model capable of detecting and classifying objects with high accuracy in underwater environments.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Competitions, Hackathons & Additional Projects -->
+        <section class="portfolio-block projects-cards pt-4 border-top">
+            <div class="container">
+                <div class="heading text-center mb-5">
+                    <h2>Competitions, Hackathons &amp; Additional Work</h2>
+                    <p class="text-muted fs-5">Award-winning hackathon builds, research grant projects, and distributed mesh networks.</p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Project 6: AID PACT COVID-19 Map -->
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <a href="https://covid19.spaceappschallenge.org/challenges/covid-challenges/integrated-assessment/teams/hexhax/project" target="_blank" rel="noopener">
+                                <img class="card-img-top" src="assets/img/tech/map.jpg" alt="AID PACT Project" style="height:200px;object-fit:cover;">
+                            </a>
+                            <div class="card-body d-flex flex-column text-start p-4">
+                                <div class="mb-2">
+                                    <span class="badge bg-primary project-badge">NASA Space Apps</span>
+                                    <span class="badge bg-success project-badge">ML Regression</span>
+                                    <span class="badge bg-secondary project-badge">Google Maps API</span>
+                                </div>
+                                <h4 class="card-title fw-bold mb-1">
+                                    <a href="https://covid19.spaceappschallenge.org/challenges/covid-challenges/integrated-assessment/teams/hexhax/project" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">
+                                        AID PACT: AI Pandemic Prediction
+                                    </a>
+                                </h4>
+                                <h6 class="card-subtitle text-muted mb-3">Bayesian Ridge Regression &bull; Socioeconomic Data</h6>
+                                <div class="card-text text-muted flex-grow-1" style="font-size:0.92rem;line-height:1.6;">
+                                    <p class="mb-2 text-dark">Interactive predictive map forecasting case spread and unemployment rates over time to assist global health resource logistics.</p>
+                                    <ul class="project-bullet-list">
+                                        <li>Integrated Earth Observation satellite features with Gini coefficient, GDP, and population density metrics.</li>
+                                        <li>Built the interactive visualization layer integrated directly with Google Maps API.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 7: BayHax Emotional Health Bear -->
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <a href="https://devpost.com/software/bayhax" target="_blank" rel="noopener">
+                                <img class="card-img-top" src="assets/img/tech/bear.jpg" alt="BayHax Project" style="height:200px;object-fit:cover;">
+                            </a>
+                            <div class="card-body d-flex flex-column text-start p-4">
+                                <div class="mb-2">
+                                    <span class="badge bg-warning text-dark project-badge">Hackathon 2nd Place</span>
+                                    <span class="badge bg-dark project-badge">Raspberry Pi</span>
+                                    <span class="badge bg-info text-dark project-badge">Chart.js</span>
+                                </div>
+                                <h4 class="card-title fw-bold mb-1">
+                                    <a href="https://devpost.com/software/bayhax" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">
+                                        BayHax: Emotional Health Bear
+                                    </a>
+                                </h4>
+                                <h6 class="card-subtitle text-muted mb-3">IoT Telemetry &bull; Interactive Dashboard</h6>
+                                <div class="card-text text-muted flex-grow-1" style="font-size:0.92rem;line-height:1.6;">
+                                    <p class="mb-2 text-dark">Award-winning smart companion bear fitted with Raspberry Pi, sensors, and audio feedback to help track children&rsquo;s emotional patterns.</p>
+                                    <ul class="project-bullet-list">
+                                        <li>Built data communication infrastructure between the physical device and web dashboard.</li>
+                                        <li>Implemented dynamic timeseries visualization using Chart.js to cross-reference emotional states with physical interactions.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 8: Borb's Big Adventure -->
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <img class="card-img-top" src="assets/img/tech/cat.jpg" alt="Borb Game" style="height:200px;object-fit:cover;">
+                            <div class="card-body d-flex flex-column text-start p-4">
+                                <div class="mb-2">
+                                    <span class="badge bg-primary project-badge">WiSys Grant Winner</span>
+                                    <span class="badge bg-secondary project-badge">Unity</span>
+                                    <span class="badge bg-dark project-badge">C# Physics</span>
+                                </div>
+                                <h4 class="card-title fw-bold mb-1">Borb&rsquo;s Big Adventure</h4>
+                                <h6 class="card-subtitle text-muted mb-3">Kinematics Simulation &bull; 2D Physics Game</h6>
+                                <div class="card-text text-muted flex-grow-1" style="font-size:0.92rem;line-height:1.6;">
+                                    <p class="mb-2 text-dark">Educational reflexive-response game designed to teach children kinematic principles and momentum.</p>
+                                    <ul class="project-bullet-list">
+                                        <li>Developed grappling hook movement mechanics simulating realistic rope tension and centripetal forces.</li>
+                                        <li>Won 2020 WiSys Quick Pitch competition at UW-Stevens Point, securing a grant for further research and development.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 9: Interconnected Tennis Scoreboard Mesh -->
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <div class="card-body d-flex flex-column text-start p-4">
+                                <div class="mb-2">
+                                    <span class="badge bg-secondary project-badge">ESP32</span>
+                                    <span class="badge bg-info text-dark project-badge">Mesh Network</span>
+                                    <span class="badge bg-dark project-badge">C++ / SPIFFS</span>
+                                </div>
+                                <h4 class="card-title fw-bold mb-1">Tennis Scoreboard Mesh</h4>
+                                <h6 class="card-subtitle text-muted mb-3">Painless Mesh &bull; Local Asynchronous Web Server</h6>
+                                <div class="card-text text-muted flex-grow-1" style="font-size:0.92rem;line-height:1.6;">
+                                    <p class="mb-2 text-dark">Interconnected 7 ESP32 microcontrollers over an ad-hoc painless mesh network for real-time court state synchronization.</p>
+                                    <ul class="project-bullet-list">
+                                        <li>Kept persistent match history and state on SPIFFS flash memory across power loss.</li>
+                                        <li>Hosted asynchronous HTTP web portals on ESP32 microcontrollers supporting live updates via GET and POST requests.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links">
+                <a href="aboutme.html">About me</a>
+                <a href="contact-me.html">Contact me</a>
+                <a href="projects-grid-cards.html">My projects</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100009795074402"><i class="icon ion-social-facebook"></i></a>
+                <a href="https://www.instagram.com/jp.bunn/"><i class="icon ion-social-instagram-outline"></i></a>
+                <a href="https://www.linkedin.com/in/jpbunn/"><i class="icon ion-social-linkedin"></i></a>
+            </div>
+            <div>
+                <p>&copy; 2026 John Paul Bunn<br></p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+</html>
